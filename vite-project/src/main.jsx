@@ -1,17 +1,8 @@
 
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import App from './App'
 
-let button= "buttton"
-createRoot(document.getElementById('root')).render(
-  <div>
-    {button}
 
-    <span>
-        sisi
-    </span>
+createRoot(document.getElementById('root')).render(<App/>);
 
-  </div>
-
- 
-)
