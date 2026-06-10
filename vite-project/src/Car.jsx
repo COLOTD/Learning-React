@@ -17,6 +17,10 @@ const Car = () => {
                 <li>
                      <strong>color:</strong> red
                 </li>
+                <li>
+                     <strong>company:</strong> ffff
+                </li>
+
 
 
 
