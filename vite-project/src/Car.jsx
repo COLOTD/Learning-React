@@ -6,7 +6,7 @@ const Car = () => {
             <h2>Car information</h2>
             <ul>
                 <li>
-                    <strong>make:</strong> Toyota
+                    <strong>make:</strong> mvm
                 </li>
                 <li>
                      <strong>model:</strong> carmy
@@ -18,7 +18,7 @@ const Car = () => {
                      <strong>color:</strong> red
                 </li>
                 <li>
-                     <strong>company:</strong> ffff
+                     <strong>company:</strong>
                 </li>
 
 
