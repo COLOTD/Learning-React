@@ -1,13 +1,24 @@
 import { Fragment } from "react"
 import Car from "./Car";
+import { useState } from "react";
 
 function App() {
+
+ const state = useState("Hello world.sdsd....");
+
+  const changeText = () => {
+   state[1]("Hello world");
+    
+  };
 
   return(
     <>
          hellooo Arco u got this!
-      <Car make="mvm" model="carmy" year={2022} color="red" price="$25,000" />
-      <Car make="honda" model="civic" year={2023} color="blue" price="$23,000" />
+         <button onClick={changeText}>Click me!</button>
+         <span id="text">{state[0]}</span>
+        
+      
+     
     </>
 
   );
