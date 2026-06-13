@@ -6,7 +6,7 @@ const Car = () => {
             <h2>Car information</h2>
             <ul>
                 <li>
-                    <strong>make:</strong> mvm
+                    <strong>mak:</strong> mvm
                 </li>
                 <li>
                      <strong>model:</strong> carmy
