@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import Car from "./Car";
 import { useState } from "react";
+import User from "./User";
 
 function App() {
 
@@ -13,11 +14,14 @@ function App() {
 
   return(
     <>
-         hellooo Arco u got this!
+
+    <User name={name} />
+    <user />                                         
+         {/* hellooo Arco u got this!
          <button onClick={changeText}>Click me!</button>
          <span id="text">{state[0]}</span>
         
-      
+       */}
      
     </>
 
